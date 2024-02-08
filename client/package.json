@@ -12,9 +12,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "bunx --bun react-scripts start",
-    "build": "bunx --bun react-scripts build",
-    "eject": "bunx --bun react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
