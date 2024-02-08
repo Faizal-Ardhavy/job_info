@@ -7,7 +7,7 @@
 bun.lockb
 # testing
 /coverage
-
+.env
 # production
 /build
 
