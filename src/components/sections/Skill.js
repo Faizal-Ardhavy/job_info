@@ -13,21 +13,10 @@ import { Typography, Col, Row } from 'antd';
 
 const { Title, Paragraph } = Typography;
 
-export default function Language() {
+export default function Skill() {
   return (
 	  <div><Row className='px-16 pt-12 text-left'>
-		  <Col span={12}>
 
-			  <Typography>
-				  <Title>Language Based</Title>
-
-				  <Paragraph>
-					  In the process of internal desktop applications development, many different design specs and
-					  implementations would be involved, which might cause designers and developers difficulties and
-					  duplication and reduce the efficiency of development.
-				  </Paragraph>
-			  </Typography>
-		  </Col>
 		  <Col span={12}>
 			  <LineChart
 				  width={500}
@@ -53,6 +42,18 @@ export default function Language() {
 				  />
 				  <Line type="monotone" dataKey="Web Dev" stroke="#82ca9d" />
 			  </LineChart>
+		  </Col>
+		  <Col span={12}>
+
+			  <Typography>
+				  <Title>Skill Based</Title>
+
+				  <Paragraph>
+					  In the process of internal desktop applications development, many different design specs and
+					  implementations would be involved, which might cause designers and developers difficulties and
+					  duplication and reduce the efficiency of development.
+				  </Paragraph>
+			  </Typography>
 		  </Col>
 	  </Row></div>
   )

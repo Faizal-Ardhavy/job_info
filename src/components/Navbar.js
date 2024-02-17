@@ -8,7 +8,7 @@ const { Title } = Typography;
 
 export default function Navbar() {
 	return (
-		<header className='position-fixed top-0 left-0 px-16 py-2 bg-slate-400'>
+		<header className='top-0 left-0 px-16 py-2 bg-slate-400'>
 			<Flex justify='space-between'>
 
 				<BarChartOutlined />
