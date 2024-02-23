@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Box } from '@chakra-ui/react'
+
 
 export default function Navbar() {
 	return (
-		<header className='top-0 left-0 px-16 py-2 bg-slate-400'>
-
+		<header>
+			<Box w='100%' p={4}>
+				This is the Box
+			</Box>
 		</header>
 	)
 }
