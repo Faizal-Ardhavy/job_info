@@ -1,13 +1,21 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react'
-
+import { Box, Flex, Spacer } from '@chakra-ui/react'
 
 export default function Navbar() {
 	return (
 		<header>
-			<Box w='100%' p={4}>
-				This is the Box
-			</Box>
+			<Flex alignItems='center' gap='8' p='8'>
+				<Box textStyle='h1'>
+					Job Recap
+				</Box>
+				<Spacer />
+				<Box textStyle='h2'>
+					About
+				</Box>
+				<Box textStyle='h2'>
+					Contact
+				</Box>
+			</Flex>
 		</header>
 	)
 }
