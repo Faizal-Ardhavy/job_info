@@ -9,10 +9,10 @@ export default function Navbar() {
 					Job Recap
 				</Box>
 				<Spacer />
-				<Box textStyle='h2'>
+				<Box textStyle='h3'>
 					About
 				</Box>
-				<Box textStyle='h2'>
+				<Box textStyle='h3'>
 					Contact
 				</Box>
 			</Flex>

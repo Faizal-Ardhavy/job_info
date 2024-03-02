@@ -12,7 +12,7 @@ const styles = {
 				bg: 'background',
 			},
       'header': {
-				bg: 'tetriary',
+				bg: '',
       },
     },
 	},
